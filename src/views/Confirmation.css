@@ -1,0 +1,24 @@
+/* Confirmation.css */
+
+/* Hide elements that are not needed for printing */
+@media print {
+    .bg-secondary, .card-header {
+      display: none !important;
+    }
+  
+    /* Optimize layout for print */
+    body {
+      font-size: 12px;
+      color: #000;
+    }
+  
+    .card-body {
+      padding: 10px;
+    }
+  
+    /* Ensure all fields are visible */
+    label {
+      font-weight: bold;
+    }
+  }
+  
